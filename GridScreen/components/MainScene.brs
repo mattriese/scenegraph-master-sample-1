@@ -2,6 +2,7 @@
 
 ' entry point of  MainScene
 ' Note that we need to import this file in MainScene.xml using relative path.
+' Initializes variables referencing components in the xml file
 sub Init()
     ' set background color for scene. Applied only if backgroundUri has empty value
     m.top.backgroundColor = "0x662D91"
