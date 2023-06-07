@@ -14,6 +14,7 @@ end sub
 
 sub OnButtonSelected(event) ' invoked when button in DetailsScreen is pressed
     STOP
+STOP
     details = event.GetRoSGNode()
     content = details.content
     buttonIndex = event.getData() ' index of selected button

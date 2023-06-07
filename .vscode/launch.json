@@ -7,7 +7,7 @@
       "name": "BrightScript Debug: Launch",
       "host": "${env:ROKU_DEV_TARGET}",
       "password": "${env:ROKU_DEV_PASSWORD}",
-      "rootDir": "${workspaceFolder}/GridScreen",
+      "rootDir": "${workspaceFolder}/DetailsScreen",
       "envFile": "${workspaceFolder}/.env",
     }
   ]
